@@ -29,6 +29,8 @@ function SignIn() {
                     localStorage.setItem("token", res.data.token)
                     localStorage.setItem("username", res.data.name)
                     navigate("/homepage")
+                } else {
+                    toastr.info("Email or password is not correct.")
                 }
             })
     }

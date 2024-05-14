@@ -13,8 +13,7 @@ import Verify from './component/verify'
 function App() {
 
   return (
-    // <HashRouter>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" >
           <Route path="" element={<Layout />} />
@@ -24,7 +23,7 @@ function App() {
           <Route path='verify' element={<Verify />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

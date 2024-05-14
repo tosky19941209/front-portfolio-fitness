@@ -54,7 +54,7 @@ function SignUp() {
     }
     return (
         <div className="w-screen h-screen flex justify-center items-center">
-            <div className="w-[600px] h-[700px] flex flex-col justify-center items-center border rounded">
+            <div className="w-[600px] flex flex-col justify-center items-center border rounded">
 
                 <p className="text-[40px] text-[#5534A5]">
                     Sign Up
